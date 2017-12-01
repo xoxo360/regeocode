@@ -14,7 +14,7 @@ import org.apache.hadoop.hive.ql.exec.UDF;
 
 public class regeocode extends UDF {
 		//个人申请的密钥
-		private static String app_token = "268d99808083b0c30b93b952e329d869"; 
+		private static String app_token = "你申请的token"; 
 		//解析gps返回数据
 		public static String getinfo(String gps,String gpstype)throws JSONException{ 
 			//判断传入的输出gps类型是否正确
